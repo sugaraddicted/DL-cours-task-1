@@ -32,6 +32,3 @@ def BruteForceTime(size):                                                # 3. Б
 
     print(time.time() - t_start)
 
-key = secrets.token_hex(16)
-keyInt =int(key, 16)
-print(key, ' ',keyInt)
