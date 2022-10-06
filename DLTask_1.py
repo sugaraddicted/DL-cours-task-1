@@ -18,7 +18,7 @@ def BruteForceTime(size: int):                                           # 3. Б
     start = timedelta(seconds=time.time())
 
     key = random.randint(0, pow(2, size))
-    print(hex(key))
+   
     resultInt = 0
 
     while True:
@@ -27,7 +27,7 @@ def BruteForceTime(size: int):                                           # 3. Б
             finish = timedelta(seconds=time.time())
             break
  
-    print(hex(resultInt))
+    
     execution_time = finish - start
     print(execution_time.microseconds / 1000)
 BruteForceTime(16)
