@@ -27,7 +27,7 @@ def BruteForceTime(size: int):                                           # 3. Б
             finish = timedelta(seconds=time.time())
             break
  
-    
+    result = hex(resultInt)
     execution_time = finish - start
     print(execution_time.microseconds / 1000)
 BruteForceTime(16)
