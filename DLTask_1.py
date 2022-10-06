@@ -2,7 +2,7 @@ import time
 from datetime import timedelta
 from array import *
 import random
-sizes = array('i', [8,16,32,64,128, 256, 512, 1024, 2048, 4096])
+sizes = [8,16,32,64,128, 256, 512, 1024, 2048, 4096]
 size_of_hex_num: int = 4 # size of 0x is 4 bits
 def GetNumberOfUniKeys():                                                # 1. Простір ключів
   for x in sizes:
