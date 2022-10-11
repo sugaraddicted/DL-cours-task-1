@@ -1,2 +1,2 @@
-# DL-course-task-1
+# DL blockchain-course-task-1
 
